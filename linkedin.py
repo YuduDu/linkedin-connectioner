@@ -26,7 +26,7 @@ drive.get('https://www.linkedin.com/uas/login')
 email = drive.find_element_by_id('session_key-login')
 email.send_keys('12315dyd@gmail.com')
 password = drive.find_element_by_id('session_password-login')
-password.send_keys('hualuolianyiqi')
+password.send_keys('******')
 password.send_keys(Keys.RETURN)
 
 #time.sleep(5)
